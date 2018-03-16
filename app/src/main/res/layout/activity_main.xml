@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="helloworld.demo.com.weatherforecast.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment_1"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:name="helloworld.demo.com.weatherforecast.MapFragment"
+        tools:layout = "@layout/fragment_1"/>
+
+
+
+    <fragment
+        android:id="@+id/fragment_2"
+        android:layout_marginTop="260dp"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:name="helloworld.demo.com.weatherforecast.WeatherFragment"
+        tools:layout = "@layout/fragment_2"/>
+
+
+</RelativeLayout>
